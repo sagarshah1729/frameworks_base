@@ -623,6 +623,9 @@
          true here reverses that logic. -->
     <bool name="config_reverseDefaultRotation">false</bool>
 
+    <!-- Boolean to enable stk functionality on Samsung phones -->
+    <bool name="config_samsung_stk">false</bool>
+
     <!-- Sets the minimum and maximum tilt tolerance for each possible rotation.
          This array consists of 4 pairs of values which specify the minimum and maximum
          tilt angle at which the device will transition into each rotation.
